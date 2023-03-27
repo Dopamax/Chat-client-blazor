@@ -1,0 +1,11 @@
+@using Chatfy.Components.ContactCard;
+<div class="contactPanel">
+    @foreach(var item in @list)
+    {
+        <ContactCard Name="@item"></ContactCard>
+    }
+</div>
+
+@code{
+    List<string> list = new List<string>(){ "Ahmed", "Mohammed", "Ali"};
+}

@@ -1,0 +1,13 @@
+@page "/Rooms"
+@using Chatfy.Components.Navbar;
+@using Chatfy.Components.RoomPanel;
+@using Chatfy.Components.ContentPanel;
+@using Chatfy.Components.MessagePanel;
+<Navbar />
+<div class="d-flex">
+    <RoomPanel />
+    <div class="d-block w-100">
+        <ContentPanel />
+        <MessagePanel />
+    </div>
+</div>

@@ -1,0 +1,77 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+.contactPanel {
+    width: 25%;
+    background-color: #fff4ee;
+    height: calc(100vh - 100px);
+    padding : 8px;
+}
+
+.contactCard {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 12px;
+    padding-block: 8px;
+    margin-block: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.contactCard h5 {
+    margin-left: 14px;
+}
+
+.contactImage {
+    height: 40px;
+}
+
+.roomPanel {
+    width: 25%;
+    background-color: #faffee;
+    height: calc(100vh - 100px);
+    padding: 8px;
+}
+
+.roomCard {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-block: 8px;
+    margin-block: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.roomCard h5 {
+    margin-left: 14px;
+}
+
+.contentPanel {
+    background-color: #f6f6f6;
+    height: calc(100vh - 100px - 80px);
+    width: 100%;
+}
+
+.messagePanel {
+    background-color: #f5f1f1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.messagePanel input {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.messagePanel button {
+    height: 60px;
+    border-radius: 60px;
+    padding: 8px;
+    margin: 8px;
+}

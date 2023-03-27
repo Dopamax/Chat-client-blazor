@@ -1,0 +1,11 @@
+@using Chatfy.Components.RoomCard;
+<div class="roomPanel">
+    @foreach(var item in @list)
+    {
+        <RoomCard Name="@item"></RoomCard>
+    }
+</div>
+
+@code {
+    List<string> list = new List<string>() {".Net", "Java", "PHP", "Testing"};
+}
